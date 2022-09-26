@@ -1,0 +1,191 @@
+body {
+  margin:0;
+  text-align:center;
+  
+  }
+h1 {
+  font-size: 5.625rem; /*16px=100%=1em*,90px=5.625em*/
+  width: 30%;
+  font-family: 'Beau Rivage', cursive;
+  margin: 50px auto 0 auto; 
+  line-height : 1.2;
+  color: rgb(48, 96, 84);
+  font-weight: normal;
+  
+}
+h2{
+  font-weight: normal;
+  color:rgb(2, 75, 56);
+  font-size: 3rem;
+  padding-bottom: 1;
+  font-family:'Montserrat' , sans-serif;
+}
+.get {
+  color: #11999E;
+}
+h3{
+  color: rgb(72, 118, 106);
+  font-size: 2rem;
+  font-family:'Montserrat' , sans-serif;
+}
+p {
+  line-height: 2;
+  font-family:'Montserrat' , sans-serif;
+}
+a{
+  color:#11999E;
+  margin:10px 20px; /*Add spacing between linkdln ig twitter*/
+  text-decoration: none;
+  font-family:'Montserrat' , sans-serif;
+}
+a:hover{
+  color:#EAF6F6; /*Give white color when someone hover over linkdln or ig */
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+}
+hr {
+  border: dotted #EAF6F6 6px; /*horizontal row = it will add a row as a separater.*/
+  border-bottom: none;/*After applying border we see to lines at .1px distance but it merge it into a single line*/
+  width: 4%;
+}
+.intro{
+  width:20%;/*To convert long single line text into 2-3 lines which makes it easy to read for user*/
+  margin: auto;
+}
+.Top-Container { 
+  background-color: #66BFBF;
+  position:relative;
+  padding-top: 100px;
+  
+  
+  /*height: 200px;
+  width: 200px;
+  position: absolute;
+  display:inline-block;*/
+  }
+  .as{
+    color: #EAF6F6;
+  }
+  .Middle-Container {
+    padding-top: 50px;}
+  /*background-color: rgb(20, 208, 145);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left:200px;
+  top:200px;
+  display:inline-block;
+  right: 200px;
+ }
+  */
+  .Web {
+    text-decoration: underline rgb(241, 57, 93);
+    background-color:rgb(241, 57, 93)  ;
+    
+  }
+  .as{
+    font-size: 2rem;
+  }
+/*---Common inline elements: Spans(<span>),Images(<img>),Anchors(<a>)--*/
+/*--- agar hm paragraph ko width de to vo b span ka kam krega lekin span m width dalne ka koi sense nhi bnta to kuch nhi hoga--*/
+/*---Position: Static (Go along with html rules and keep to the default html flow means html without css),Relative(Shift towards top,bottom,left or right),Absolute,Fixed*/
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top:0px;
+  
+}
+.Profile{
+  position: relative;
+  height: 200px;
+  padding-left: 500px;
+  padding-right: 500px;
+  width: 500px;
+  height: 300px;
+ 
+}
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto ;
+  text-align: left;
+  line-height: 2;
+
+}
+.skill{
+  width:25%;
+  float:left;
+  align-content: left;/*shift text to the left of the img*/ 
+  margin-right: 20px; /*add spacing between img and text*/
+}
+.projects{
+  width:25%;
+  float:right;
+  padding-left: 20px;/*add spacing between img and text*/
+}
+.bottom-cloud{
+  position:absolute;
+  left:300px;
+  bottom: 300px;
+  height: 75px;/*It will change the cloud size*/
+  
+}
+.Skillss{
+  position: relative;
+  height: 200px;
+  padding-left: 500px;
+  padding-right: 500px;
+  width: 50rpm;}
+/* clear: It will clear that portion like if we add clear left in skill section then it will remove text from side of img & shift it below the img. */
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contact-me{
+  margin-top:50px;
+}
+.Bottom-Container {
+  background-color:#66BFBF;
+  margin-top:50px;
+  padding:50px 0 20px;}
+  /*height: 200px;
+  width: 200px;
+  position: absolute;
+  display: inline-block;
+  top: 400px;
+  left: 400px;
+  }
+/*---span or para m ye  hota h ki para puri width le jata h mtlb agr hm para change krenge to next word next line m aaega jiski apni width hogi lekin span m contintuity rhegi words m or m class de skte h span k jariye bina line change kiye or uss class ki hm css b diffchange kr skte h,Moreover the box around span is only as large as it needs to be---*/
+/* javascript is an interpreted programming language with java is a compiled programming language*/
+/* alert("xyz"); it will display dialog box with the message alert.
+in source type below content
+var gamelevel =1;
+gamelevel =2;
+alert("Your current level is:" +gamelevel);
+/*or
+var myName = "Vanshika";
+var yourName =prompt("What is your name?"); here prompt ask ques and remember the ans
+alert("My name is " + myName +",welcome to my pc "+yourName + "!");
